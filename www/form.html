@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2dd36f">
+  <title>Visitor Form | Explore Alor Setar</title>
+  <link rel="stylesheet" href="vendor/ionic/css/ionic.bundle.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="vendor/ionic/ionic.esm.js"></script>
+</head>
+<body>
+<ion-app>
+<ion-header>
+<ion-toolbar color="success">
+<ion-buttons slot="start"><ion-back-button default-href="index.html" text="Back"></ion-back-button></ion-buttons>
+<ion-title>Visitor Interest Form</ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+<ion-card>
+<ion-card-header><ion-card-title>Plan your visit</ion-card-title><ion-card-subtitle>Data is not sent or stored</ion-card-subtitle></ion-card-header>
+<ion-card-content>
+<form>
+<ion-input label="Full name" label-placement="floating" fill="outline" type="text" placeholder="Your name"></ion-input>
+<ion-input class="gap" label="Email" label-placement="floating" fill="outline" type="email" placeholder="you@example.com"></ion-input>
+<ion-input class="gap" label="Planned visit date" label-placement="floating" fill="outline" type="date"></ion-input>
+
+<ion-select class="gap" label="Preferred place" label-placement="floating" fill="outline" interface="popover" placeholder="Choose one">
+<ion-select-option value="zahir">Zahir Mosque</ion-select-option>
+<ion-select-option value="tower">Menara Alor Setar</ion-select-option>
+<ion-select-option value="museum">Kedah Paddy Museum</ion-select-option>
+<ion-select-option value="balai">Balai Besar</ion-select-option>
+</ion-select>
+
+<ion-list class="gap">
+<ion-radio-group value="solo">
+<ion-list-header><ion-label>Travelling as</ion-label></ion-list-header>
+<ion-item><ion-radio value="solo">Solo</ion-radio></ion-item>
+<ion-item><ion-radio value="family">Family</ion-radio></ion-item>
+<ion-item><ion-radio value="group">Group</ion-radio></ion-item>
+</ion-radio-group>
+</ion-list>
+
+<ion-list class="gap">
+<ion-list-header><ion-label>Interests</ion-label></ion-list-header>
+<ion-item><ion-checkbox>Local food</ion-checkbox></ion-item>
+<ion-item><ion-checkbox>Heritage sites</ion-checkbox></ion-item>
+<ion-item><ion-checkbox>Photography</ion-checkbox></ion-item>
+<ion-item><ion-checkbox>Handicrafts and shopping</ion-checkbox></ion-item>
+</ion-list>
+
+<ion-textarea class="gap" label="Comments" label-placement="floating" fill="outline" rows="3" placeholder="Anything you want to see?"></ion-textarea>
+<ion-button class="gap" expand="block" type="button">Submit</ion-button>
+</form>
+</ion-card-content>
+</ion-card>
+</ion-content>
+<ion-footer>
+<ion-tab-bar>
+<ion-tab-button href="index.html" ><ion-icon name="home"></ion-icon><ion-label>Home</ion-label></ion-tab-button>
+<ion-tab-button href="places.html" ><ion-icon name="location"></ion-icon><ion-label>Places</ion-label></ion-tab-button>
+<ion-tab-button href="food.html" ><ion-icon name="restaurant"></ion-icon><ion-label>Food</ion-label></ion-tab-button>
+<ion-tab-button href="form.html" selected><ion-icon name="create"></ion-icon><ion-label>Visit</ion-label></ion-tab-button>
+<ion-tab-button href="about.html" ><ion-icon name="information-circle"></ion-icon><ion-label>About</ion-label></ion-tab-button>
+</ion-tab-bar>
+</ion-footer>
+</ion-app>
+</body>
+</html>

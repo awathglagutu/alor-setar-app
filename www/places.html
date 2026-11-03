@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2dd36f">
+  <title>Places | Explore Alor Setar</title>
+  <link rel="stylesheet" href="vendor/ionic/css/ionic.bundle.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="vendor/ionic/ionic.esm.js"></script>
+</head>
+<body>
+<ion-app>
+<ion-header>
+<ion-toolbar color="success">
+<ion-buttons slot="start"><ion-back-button default-href="index.html" text="Back"></ion-back-button></ion-buttons>
+<ion-title>Places to Explore</ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+<ion-card>
+<img src="images/zahir.jpg" alt="Zahir Mosque with its five black domes">
+<ion-card-header><ion-card-title>Zahir Mosque</ion-card-title></ion-card-header>
+<ion-card-content>Moorish-style mosque in the city centre, famous for its five black domes.</ion-card-content>
+</ion-card>
+<ion-card>
+<img src="images/tower.jpg" alt="Menara Alor Setar tower at dusk">
+<ion-card-header><ion-card-title>Menara Alor Setar</ion-card-title></ion-card-header>
+<ion-card-content>A 165.5 m tower with an observation deck over the paddy plains.</ion-card-content>
+</ion-card>
+
+<ion-card>
+<ion-card-header><ion-card-title>Attractions at a glance</ion-card-title><ion-card-subtitle>Swipe the table sideways</ion-card-subtitle></ion-card-header>
+<ion-card-content>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Attraction</th><th>Category</th><th>Location</th><th>Main Feature</th></tr></thead>
+<tbody>
+<tr><td>Zahir Mosque</td><td>Historical</td><td>City Centre</td><td>Moorish architecture with an intricate grand hall.</td></tr>
+<tr><td>Menara Alor Setar</td><td>Landmark</td><td>City Centre</td><td>165.5 m tower with an observation deck.</td></tr>
+<tr><td>Kedah Paddy Museum</td><td>Cultural</td><td>Gunung Keriang</td><td>Rice-growing heritage with a large rotating mural.</td></tr>
+<tr><td>Rumah Kelahiran Mahathir</td><td>Historical</td><td>Lorong Kilang Ais</td><td>Wooden birth home of Malaysia's 4th Prime Minister.</td></tr>
+<tr><td>Balai Besar</td><td>Royal Heritage</td><td>City Centre</td><td>Royal audience hall with Malay wood carvings.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">Kedah Tourism: kedahtourism.com (external reference; this guide works offline)</p>
+</ion-card-content>
+</ion-card>
+<ion-card>
+<ion-card-content><img class="inline-img" src="images/museum.jpg" alt="Kedah Paddy Museum"><p>Kedah Paddy Museum celebrates the state's rice-farming story.</p></ion-card-content>
+</ion-card>
+</ion-content>
+<ion-footer>
+<ion-tab-bar>
+<ion-tab-button href="index.html" ><ion-icon name="home"></ion-icon><ion-label>Home</ion-label></ion-tab-button>
+<ion-tab-button href="places.html" selected><ion-icon name="location"></ion-icon><ion-label>Places</ion-label></ion-tab-button>
+<ion-tab-button href="food.html" ><ion-icon name="restaurant"></ion-icon><ion-label>Food</ion-label></ion-tab-button>
+<ion-tab-button href="form.html" ><ion-icon name="create"></ion-icon><ion-label>Visit</ion-label></ion-tab-button>
+<ion-tab-button href="about.html" ><ion-icon name="information-circle"></ion-icon><ion-label>About</ion-label></ion-tab-button>
+</ion-tab-bar>
+</ion-footer>
+</ion-app>
+</body>
+</html>

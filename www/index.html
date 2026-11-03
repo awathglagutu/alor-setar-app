@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2dd36f">
+  <title>Home | Explore Alor Setar</title>
+  <link rel="stylesheet" href="vendor/ionic/css/ionic.bundle.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="vendor/ionic/ionic.esm.js"></script>
+</head>
+<body>
+<ion-app>
+<ion-header>
+<ion-toolbar color="success">
+<ion-title>Explore Alor Setar</ion-title>
+</ion-toolbar>
+</ion-header>
+<ion-content>
+<img class="hero" src="images/tower.jpg" alt="Menara Alor Setar rising above the city">
+<ion-card>
+<ion-card-header>
+<ion-card-subtitle>Kedah, Malaysia</ion-card-subtitle>
+<ion-card-title>Welcome to Alor Setar</ion-card-title>
+</ion-card-header>
+<ion-card-content>
+<p>Alor Setar is the capital city of Kedah, affectionately known as the "Rice Bowl of Malaysia" for its sweeping green and gold paddy fields. Blending rich historical heritage with modern landmarks, it is a tranquil yet culturally vibrant getaway.</p>
+<h3>The Skyline</h3>
+<p>The city is anchored by the Alor Setar Tower (Menara Alor Setar). Standing 165.5 metres tall, this telecommunications tower offers panoramic views of the city and the surrounding plains.</p>
+<h3>Historical Heart</h3>
+<p>A short distance away is Zahir Mosque, one of Malaysia's oldest and most beautiful mosques, topped with five black domes that symbolise the Five Pillars of Islam.</p>
+</ion-card-content>
+</ion-card>
+
+<ion-card>
+<ion-card-header><ion-card-title>Alor Setar Video Tour</ion-card-title></ion-card-header>
+<ion-card-content>
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/kiMoXUvyZmE"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+<p class="note">Credit: AzriAzmi on Youtube</p>
+</ion-card-content>
+</ion-card>
+
+<ion-card>
+<ion-card-header><ion-card-title>Start exploring</ion-card-title></ion-card-header>
+<ion-card-content>
+<ion-button expand="block" href="places.html">Places to Explore</ion-button>
+<ion-button expand="block" color="secondary" href="food.html">Food and Heritage</ion-button>
+<ion-button expand="block" color="tertiary" href="form.html">Visitor Interest Form</ion-button>
+</ion-card-content>
+</ion-card>
+</ion-content>
+<ion-footer>
+<ion-tab-bar>
+<ion-tab-button href="index.html" selected><ion-icon name="home"></ion-icon><ion-label>Home</ion-label></ion-tab-button>
+<ion-tab-button href="places.html" ><ion-icon name="location"></ion-icon><ion-label>Places</ion-label></ion-tab-button>
+<ion-tab-button href="food.html" ><ion-icon name="restaurant"></ion-icon><ion-label>Food</ion-label></ion-tab-button>
+<ion-tab-button href="form.html" ><ion-icon name="create"></ion-icon><ion-label>Visit</ion-label></ion-tab-button>
+<ion-tab-button href="about.html" ><ion-icon name="information-circle"></ion-icon><ion-label>About</ion-label></ion-tab-button>
+</ion-tab-bar>
+</ion-footer>
+</ion-app>
+</body>
+</html>
