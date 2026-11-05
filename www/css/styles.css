@@ -1,8 +1,10 @@
 /* Shared layout for the offline Alor Setar guide */
 body { background: #f4f7f2; }
 ion-content { --background: #f4f7f2; }
+ion-footer { padding-bottom: env(safe-area-inset-bottom, 0px); }
 .hero { display: block; width: 100%; max-height: 260px; object-fit: cover; }
-.video-offline { padding: 1rem; border-radius: 8px; background: #eef4eb; color: #38533d; text-align: center; }
+img { max-width: 100%; }
+iframe { display: block; width: 100%; max-width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; }
 .note { color: #667; font-size: .9rem; }
 .gap { display: block; margin-top: 1rem; }
 .comments {
@@ -22,5 +24,6 @@ ion-content { --background: #f4f7f2; }
   text-align: start;
 }
 .table-wrap { max-width: 100%; overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; }
+table { width: 100%; min-width: 480px; border-collapse: collapse; }
 th, td { padding: .55rem; border-bottom: 1px solid #dedede; text-align: left; }
+th { background: #e3eedf; color: #38533d; }
