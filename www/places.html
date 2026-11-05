@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="vendor/ionic/css/ionic.bundle.css">
   <link rel="stylesheet" href="css/styles.css">
   <script type="module" src="vendor/ionic/ionic.esm.js"></script>
+  <style>
+    .note a{
+      color:rgb(0, 110, 255);
+    }
+  </style>
 </head>
 <body>
 <ion-app>
@@ -19,14 +24,43 @@
 </ion-header>
 <ion-content>
 <ion-card>
-<img src="images/zahir.jpg" alt="Zahir Mosque with its five black domes">
-<ion-card-header><ion-card-title>Zahir Mosque</ion-card-title></ion-card-header>
-<ion-card-content>Moorish-style mosque in the city centre, famous for its five black domes.</ion-card-content>
+  <img src="images/zahir.jpg" alt="Zahir Mosque with its five black domes">
+  <ion-card-header>
+    <ion-card-title>Zahir Mosque</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Moorish-style mosque in the city centre, famous for its five black domes.
+    <br>
+    <!-- Maps Button -->
+    <ion-button 
+      href="https://www.google.com/maps/search/?api=1&query=Zahir+Mosque+Alor+Setar" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      fill="solid" 
+      class="ion-margin-top">
+      View on Google Maps
+    </ion-button>
+  </ion-card-content>
 </ion-card>
+
 <ion-card>
-<img src="images/tower.jpg" alt="Menara Alor Setar tower at dusk">
-<ion-card-header><ion-card-title>Menara Alor Setar</ion-card-title></ion-card-header>
-<ion-card-content>A 165.5 m tower with an observation deck over the paddy plains.</ion-card-content>
+  <img src="images/tower.jpg" alt="Menara Alor Setar tower at dusk">
+  <ion-card-header>
+    <ion-card-title>Menara Alor Setar</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    A 165.5 m tower with an observation deck over the paddy plains.
+    <br>
+    <!-- Maps Button -->
+    <ion-button 
+      href="https://www.google.com/maps/search/?api=1&query=Menara+Alor+Setar" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      fill="solid" 
+      class="ion-margin-top">
+      View on Google Maps
+    </ion-button>
+  </ion-card-content>
 </ion-card>
 
 <ion-card>
@@ -44,12 +78,30 @@
 </tbody>
 </table>
 </div>
-<p class="note">Kedah Tourism: kedahtourism.com (external reference; this guide works offline)</p>
+<p class="note"><a href="https://www.kedah.gov.my/wp-content/uploads/2024/10/KEDAH-TOURISM-DIRECTORY.pdf" target="_blank">Kedah Tourism Directory</a> (external link, needs internet)</p>
 </ion-card-content>
 </ion-card>
+
 <ion-card>
-<ion-card-content><img class="inline-img" src="images/museum.jpg" alt="Kedah Paddy Museum"><p>Kedah Paddy Museum celebrates the state's rice-farming story.</p></ion-card-content>
+  <img src="images/museum.jpg" alt="Kedah Paddy Museum">
+  <ion-card-header>
+    <ion-card-title>Kedah Paddy Museum</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Kedah Paddy Museum celebrates the state's rice-farming story.
+    <br>
+    <!-- Maps Button -->
+    <ion-button 
+      href="https://www.google.com/maps/search/?api=1&query=Kedah+Paddy+Museum" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      fill="solid" 
+      class="ion-margin-top">
+      View on Google Maps
+    </ion-button>
+  </ion-card-content>
 </ion-card>
+
 </ion-content>
 <ion-footer>
 <ion-tab-bar>

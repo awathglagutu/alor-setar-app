@@ -5,6 +5,22 @@ ion-content { --background: #f4f7f2; }
 .video-offline { padding: 1rem; border-radius: 8px; background: #eef4eb; color: #38533d; text-align: center; }
 .note { color: #667; font-size: .9rem; }
 .gap { display: block; margin-top: 1rem; }
+.comments {
+  display: block;
+  width: 100%;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+  direction: ltr;
+  text-align: start;
+}
+.comments::part(native) {
+  box-sizing: border-box;
+  width: 100%;
+  direction: ltr;
+  text-align: start;
+}
 .table-wrap { max-width: 100%; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
 th, td { padding: .55rem; border-bottom: 1px solid #dedede; text-align: left; }
