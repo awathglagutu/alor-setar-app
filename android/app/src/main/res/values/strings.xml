@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Explore Alor Setar</string>
+    <string name="title_activity_main">Explore Alor Setar</string>
+    <string name="package_name">com.adamharisbinamran.alorsetar</string>
+    <string name="custom_url_scheme">com.adamharisbinamran.alorsetar</string>
+</resources>
